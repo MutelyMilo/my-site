@@ -1,0 +1,15 @@
+
+.homeHeaderContainer {
+  width: 100vw;
+
+  &Tip {
+    color: antiquewhite;
+    background: black;
+    text-align: center;
+    line-height: 24px;
+  }
+
+  &TopBar {
+    display: flex;
+  }
+}
