@@ -11,5 +11,9 @@
 
   &TopBar {
     display: flex;
+    justify-content: space-around;
+    height: 32px;
+    align-items: center;
+    background: aquamarine;
   }
 }
