@@ -6,6 +6,7 @@ interface HomeContainerProps {
 }
 
 const HomeLayout = ({ children }: HomeContainerProps) => {
+
     return (
         <section>
             <HomeHeader />
