@@ -1,4 +1,7 @@
-const Home = () => {
+
+import Script from "next/script";
+
+const HomePage = () => {
     return (
         <div>
             home content
@@ -6,4 +9,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default HomePage;
