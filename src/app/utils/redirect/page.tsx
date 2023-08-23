@@ -31,7 +31,7 @@ const RedirectPage = () => {
 				});
 				ww.openUserProfile({
 					type: 1,
-					userid: 'wmEAlECwAAHrbWYDetiu3Af13xlYDAAA',
+					userid: 'april',
 					success(res) {
 						console.log(res);
 					},
