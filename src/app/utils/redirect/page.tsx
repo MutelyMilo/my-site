@@ -21,7 +21,7 @@ const RedirectPage = () => {
 			.get(
 				'https://cp-public-test.wukongacademy.com/public/api/wechat/share/corp/js/sdk/config',
 			)
-			.then((res: string) => {
+			.then((res: any) => {
 				ww.register({
 					corpId: 'wwe0a041436f827b20',
 					jsApiList: ['openUserProfile'],
