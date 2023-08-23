@@ -1,9 +1,5 @@
 const PCLoading = () => {
-    return (
-        <div>
-            PCLoading
-        </div>
-    )
-}
+	return <div>PCLoading</div>;
+};
 
 export default PCLoading;
