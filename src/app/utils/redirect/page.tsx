@@ -22,17 +22,11 @@ const RedirectPage = () => {
 				'https://cp-public-test.wukongacademy.com/public/api/wechat/share/corp/js/sdk/config',
 			)
 			.then((res) => {
-				const p = ww.getSignature(res);
-				console.log({
-					corpId: 'wwe0a041436f827b20',
-					jsApiList: ['openUserProfile'],
-					...p,
-				});
 				ww.register({
 					corpId: 'wwe0a041436f827b20',
 					jsApiList: ['openUserProfile'],
 					getConfigSignature() {
-						return p;
+						return ww.getSignature(res);
 					},
 				});
 				ww.openUserProfile({
