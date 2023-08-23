@@ -1,3 +1,3 @@
 interface Window {
-    wx: any
+	wx: any;
 }

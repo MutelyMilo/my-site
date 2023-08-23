@@ -1,19 +1,18 @@
-
 .homeHeaderContainer {
-  width: 100vw;
+	width: 100vw;
 
-  &Tip {
-    color: antiquewhite;
-    background: black;
-    text-align: center;
-    line-height: 24px;
-  }
+	&Tip {
+		color: antiquewhite;
+		background: black;
+		text-align: center;
+		line-height: 24px;
+	}
 
-  &TopBar {
-    display: flex;
-    justify-content: space-around;
-    height: 32px;
-    align-items: center;
-    background: aquamarine;
-  }
+	&TopBar {
+		display: flex;
+		justify-content: space-around;
+		height: 32px;
+		align-items: center;
+		background: aquamarine;
+	}
 }
