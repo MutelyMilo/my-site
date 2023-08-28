@@ -1,5 +1,4 @@
 import React from 'react';
-import HomeHeader from '@/components/pc/HomeHeader';
 
 interface HomeContainerProps {
 	children: React.ReactNode;

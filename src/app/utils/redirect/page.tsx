@@ -7,14 +7,6 @@ import { useEffect } from 'react';
 // https://cp-public-test.wukongacademy.com/public/api/wechat/share/corp/js/sdk/config
 // https://cp-public-test.wukongacademy.com/api/tm/organize/js_sdk
 
-const getTicket = () => {
-	return axios
-		.get(
-			'https://cp-public-test.wukongacademy.com/api/wechat/share/corp/js/sdk/config',
-		)
-		.then((res) => res);
-};
-
 const RedirectPage = () => {
 	useEffect(() => {
 		axios
