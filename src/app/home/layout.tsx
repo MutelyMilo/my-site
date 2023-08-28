@@ -6,11 +6,7 @@ interface HomeContainerProps {
 }
 
 const HomeLayout = ({ children }: HomeContainerProps) => {
-	return (
-		<section>
-			{children}
-		</section>
-	);
+	return <section>{children}</section>;
 };
 
 export default HomeLayout;

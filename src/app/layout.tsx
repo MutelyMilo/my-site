@@ -2,8 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
-import React from "react";
-import {redirect} from "next/navigation";
+import React from 'react';
+import { redirect } from 'next/navigation';
 
 const inter = Inter({ subsets: ['latin'] });
 
