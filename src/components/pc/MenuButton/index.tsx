@@ -7,7 +7,7 @@ const MenuButton = () => {
 	const [open, setOpen] = useState(false);
 	const handleMenuOpen = useCallback(() => {
 		setOpen(!open);
-	}, [open, setOpen]);
+	}, [open]);
 	return (
 		<div
 			onClick={handleMenuOpen}

@@ -5,6 +5,8 @@
 	"extends": ["next", "plugin:prettier/recommended"],
 	"plugins": ["prettier"],
 	"rules": {
-		"prettier/prettier": ["error", { "endOfLine": "auto" }]
+		"prettier/prettier": ["error", { "endOfLine": "auto" }],
+		"no-var": "error",
+		"no-unused-vars": "error"
 	}
 }

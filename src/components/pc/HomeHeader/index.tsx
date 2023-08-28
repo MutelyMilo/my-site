@@ -1,4 +1,5 @@
 import styles from './index.module.scss';
+
 const HomeHeader = () => {
 	return (
 		<div className={styles.homeHeaderContainer}>
