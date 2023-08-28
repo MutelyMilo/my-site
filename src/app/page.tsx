@@ -1,10 +1,9 @@
-import styles from './page.module.css';
-import { Metadata } from 'next';
+import styles from './page.module.scss';
 
-export const metadata: Metadata = {
-	title: 'ZCG',
+const Page = () => {
+    return <div className={styles.homeContainer}>
+        <p className={styles.homeContainerTitle}>Poplar's Blog</p>
+    </div>;
 };
 
-export default function Home() {
-	return <main className={styles.main}>/</main>;
-}
+export default Page;

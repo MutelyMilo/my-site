@@ -1,0 +1,15 @@
+.homeContainer {
+  background: url("../../public/image/DSC_0081b-b.jpg") center center no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  &Title {
+    opacity: 0.9;
+    font-size: 40px;
+  }
+}
