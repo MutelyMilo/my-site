@@ -10,6 +10,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@react-spring/web": "^9.7.3",
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
@@ -32,6 +33,9 @@
     "typescript": "5.1.6"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": ["eslint --fix --cache", "prettier --write"]
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix --cache",
+      "prettier --write"
+    ]
   }
 }
