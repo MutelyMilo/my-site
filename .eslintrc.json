@@ -1,12 +1,28 @@
 {
-	"parserOptions": {
-		"parser": "@babel/eslint-parser"
-	},
-	"extends": ["next", "plugin:prettier/recommended"],
-	"plugins": ["prettier"],
-	"rules": {
-		"prettier/prettier": ["error", { "endOfLine": "auto" }],
-		"no-var": "error",
-		"no-unused-vars": "error"
-	}
+  "parserOptions": {
+    "parser": "@babel/eslint-parser"
+  },
+  "extends": [
+    "next",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "no-var": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "varsIgnorePattern": "^_",
+        "argsIgnorePattern": "^_"
+      }
+    ]
+  }
 }

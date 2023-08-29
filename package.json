@@ -10,10 +10,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@react-spring/shared": "^9.7.3",
     "@react-spring/web": "^9.7.3",
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
+    "@use-gesture/react": "^10.2.27",
     "@vercel/analytics": "^1.0.2",
     "@wecom/jssdk": "^1.4.3",
     "axios": "^1.4.0",
